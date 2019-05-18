@@ -1,0 +1,56 @@
+h1{
+	margin: 0;
+	padding: 10px;
+}
+h2{
+	margin: 0;
+	padding: 10px;
+}
+body{
+	background-color: #000066
+}
+#wrapper{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EAEAEA
+}
+nav{
+	float: left;
+	width: 150px;
+	padding: 10px;
+}
+main{
+
+	margin-left: 160px;
+	padding: 10px;
+	background-color: #FFFFFF;
+}
+header{
+	background-color: #CCCCFF;
+}
+footer{
+	text-align: center;
+	background-color: #CCCCFF;
+	clear: both;
+}
+@media only screen and (max-width: 1024px){
+		body{margin: 0}
+		#wrapper{width: auto;}
+		main{margin-left: 0;}
+		nav{float: none;
+			width auto;
+		}
+		nav li{
+			display: inline-block;
+			padding: 0.5em;
+		}
+		nav ul{
+			text-align:center;
+		}
+		nav a{border-style: none;}
+		h1,h2{font-size: 120%}
+		p{font-size: 90%}
+
+
+	}

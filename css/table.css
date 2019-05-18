@@ -1,0 +1,9 @@
+table{margin: 0 auto;}
+table,td,th
+{
+  border-collapse:collapse;
+  border:1px solid black
+}
+th{color:blue}
+td{text-align: center}
+div{background: no-repeat 4px 5px}
